@@ -9,6 +9,35 @@
 /* Begin PBXBuildFile section */
 		300329F024DDB30000CDBFB1 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 300329EE24DDB30000CDBFB1 /* awsconfiguration.json */; };
 		300329F124DDB30000CDBFB1 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 300329EF24DDB30000CDBFB1 /* amplifyconfiguration.json */; };
+		302EF6D024DDE2E6005DF0BE /* project-config.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF68424DDE2E6005DF0BE /* project-config.json */; };
+		302EF6D124DDE2E6005DF0BE /* local-aws-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF68524DDE2E6005DF0BE /* local-aws-info.json */; };
+		302EF6D224DDE2E6005DF0BE /* local-env-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF68624DDE2E6005DF0BE /* local-env-info.json */; };
+		302EF6EA24DDE2E6005DF0BE /* backend-config.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6AB24DDE2E6005DF0BE /* backend-config.json */; };
+		302EF6EC24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6AF24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml */; };
+		302EF6ED24DDE2E6005DF0BE /* nested-cloudformation-stack.yml in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6B124DDE2E6005DF0BE /* nested-cloudformation-stack.yml */; };
+		302EF6EE24DDE2E6005DF0BE /* CustomResources.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6B524DDE2E6005DF0BE /* CustomResources.json */; };
+		302EF6F024DDE2E6005DF0BE /* schema.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6B724DDE2E6005DF0BE /* schema.graphql */; };
+		302EF6F224DDE2E6005DF0BE /* LandmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6BC24DDE2E6005DF0BE /* LandmarkData.json */; };
+		302EF6F324DDE2E6005DF0BE /* parameters.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6BD24DDE2E6005DF0BE /* parameters.json */; };
+		302EF6F524DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C024DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl */; };
+		302EF6F624DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C124DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl */; };
+		302EF6F724DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C224DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl */; };
+		302EF6F824DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C324DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl */; };
+		302EF6F924DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C424DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl */; };
+		302EF6FA24DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C524DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl */; };
+		302EF6FB24DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C624DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl */; };
+		302EF6FC24DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C724DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl */; };
+		302EF6FD24DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C824DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl */; };
+		302EF6FE24DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6C924DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl */; };
+		302EF6FF24DDE2E6005DF0BE /* cloudformation-template.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6CC24DDE2E6005DF0BE /* cloudformation-template.json */; };
+		302EF70024DDE2E6005DF0BE /* transform.conf.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6CD24DDE2E6005DF0BE /* transform.conf.json */; };
+		302EF70124DDE2E6005DF0BE /* amplify-meta.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6CE24DDE2E6005DF0BE /* amplify-meta.json */; };
+		302EF70224DDE2E6005DF0BE /* team-provider-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 302EF6CF24DDE2E6005DF0BE /* team-provider-info.json */; };
+		302EF70A24DDE31B005DF0BE /* LandmarkData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70524DDE31B005DF0BE /* LandmarkData+Schema.swift */; };
+		302EF70B24DDE31B005DF0BE /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70624DDE31B005DF0BE /* AmplifyModels.swift */; };
+		302EF70C24DDE31B005DF0BE /* CoordinateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70724DDE31B005DF0BE /* CoordinateData.swift */; };
+		302EF70D24DDE31B005DF0BE /* CoordinateData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70824DDE31B005DF0BE /* CoordinateData+Schema.swift */; };
+		302EF70E24DDE31B005DF0BE /* LandmarkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70924DDE31B005DF0BE /* LandmarkData.swift */; };
 		30D42DE124DD8ED7003DDAC8 /* UserBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D42DE024DD8ED7003DDAC8 /* UserBadge.swift */; };
 		30D42DE324DD8EF3003DDAC8 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D42DE224DD8EF3003DDAC8 /* LandingView.swift */; };
 		54364DB6E612FD8736C8FB92 /* Pods_Landmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5D3D5F12870F3B8FD60A5D /* Pods_Landmarks.framework */; };
@@ -44,10 +73,65 @@
 		261587D639512AD360639382 /* Pods-Landmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release.xcconfig"; sourceTree = "<group>"; };
 		300329EE24DDB30000CDBFB1 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		300329EF24DDB30000CDBFB1 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		302EF68424DDE2E6005DF0BE /* project-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "project-config.json"; sourceTree = "<group>"; };
+		302EF68524DDE2E6005DF0BE /* local-aws-info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "local-aws-info.json"; sourceTree = "<group>"; };
+		302EF68624DDE2E6005DF0BE /* local-env-info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "local-env-info.json"; sourceTree = "<group>"; };
+		302EF68824DDE2E6005DF0BE /* backend-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "backend-config.json"; sourceTree = "<group>"; };
+		302EF68B24DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF68C24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "amplifyiosworkshop17cd65c1-cloudformation-template.yml"; sourceTree = "<group>"; };
+		302EF69024DDE2E6005DF0BE /* CustomResources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		302EF69124DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF69224DDE2E6005DF0BE /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		302EF69624DDE2E6005DF0BE /* CustomResources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		302EF69724DDE2E6005DF0BE /* LandmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LandmarkData.json; sourceTree = "<group>"; };
+		302EF69824DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF69924DDE2E6005DF0BE /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		302EF69B24DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.listLandmarkDatas.req.vtl; sourceTree = "<group>"; };
+		302EF69C24DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.listLandmarkDatas.res.vtl; sourceTree = "<group>"; };
+		302EF69D24DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.deleteLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF69E24DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.deleteLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF69F24DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.createLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6A024DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.createLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6A124DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.updateLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6A224DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.getLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6A324DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.getLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6A424DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.updateLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6A724DDE2E6005DF0BE /* cloudformation-template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cloudformation-template.json"; sourceTree = "<group>"; };
+		302EF6A824DDE2E6005DF0BE /* transform.conf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transform.conf.json; sourceTree = "<group>"; };
+		302EF6A924DDE2E6005DF0BE /* amplify-meta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "amplify-meta.json"; sourceTree = "<group>"; };
+		302EF6AB24DDE2E6005DF0BE /* backend-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "backend-config.json"; sourceTree = "<group>"; };
+		302EF6AE24DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF6AF24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "amplifyiosworkshop17cd65c1-cloudformation-template.yml"; sourceTree = "<group>"; };
+		302EF6B124DDE2E6005DF0BE /* nested-cloudformation-stack.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "nested-cloudformation-stack.yml"; sourceTree = "<group>"; };
+		302EF6B524DDE2E6005DF0BE /* CustomResources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		302EF6B624DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF6B724DDE2E6005DF0BE /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		302EF6BB24DDE2E6005DF0BE /* CustomResources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		302EF6BC24DDE2E6005DF0BE /* LandmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LandmarkData.json; sourceTree = "<group>"; };
+		302EF6BD24DDE2E6005DF0BE /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		302EF6BE24DDE2E6005DF0BE /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		302EF6C024DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.listLandmarkDatas.req.vtl; sourceTree = "<group>"; };
+		302EF6C124DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.listLandmarkDatas.res.vtl; sourceTree = "<group>"; };
+		302EF6C224DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.deleteLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6C324DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.deleteLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6C424DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.createLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6C524DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.createLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6C624DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.updateLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6C724DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.getLandmarkData.res.vtl; sourceTree = "<group>"; };
+		302EF6C824DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.getLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6C924DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mutation.updateLandmarkData.req.vtl; sourceTree = "<group>"; };
+		302EF6CC24DDE2E6005DF0BE /* cloudformation-template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cloudformation-template.json"; sourceTree = "<group>"; };
+		302EF6CD24DDE2E6005DF0BE /* transform.conf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transform.conf.json; sourceTree = "<group>"; };
+		302EF6CE24DDE2E6005DF0BE /* amplify-meta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "amplify-meta.json"; sourceTree = "<group>"; };
+		302EF6CF24DDE2E6005DF0BE /* team-provider-info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "team-provider-info.json"; sourceTree = "<group>"; };
+		302EF70524DDE31B005DF0BE /* LandmarkData+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LandmarkData+Schema.swift"; sourceTree = "<group>"; };
+		302EF70624DDE31B005DF0BE /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		302EF70724DDE31B005DF0BE /* CoordinateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateData.swift; sourceTree = "<group>"; };
+		302EF70824DDE31B005DF0BE /* CoordinateData+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoordinateData+Schema.swift"; sourceTree = "<group>"; };
+		302EF70924DDE31B005DF0BE /* LandmarkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkData.swift; sourceTree = "<group>"; };
 		30D42DE024DD8ED7003DDAC8 /* UserBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBadge.swift; sourceTree = "<group>"; };
 		30D42DE224DD8EF3003DDAC8 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		37910177D18A1A3A2774B017 /* Pods-Landmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug.xcconfig"; sourceTree = "<group>"; };
-		76C88F0076C8886000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		78D0311078D0284000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,21 +177,299 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302EF68224DDE2E6005DF0BE /* amplify */ = {
+			isa = PBXGroup;
+			children = (
+				302EF70324DDE31B005DF0BE /* generated */,
+				302EF68324DDE2E6005DF0BE /* .config */,
+				302EF68724DDE2E6005DF0BE /* #current-cloud-backend */,
+				302EF6AA24DDE2E6005DF0BE /* backend */,
+				302EF6CF24DDE2E6005DF0BE /* team-provider-info.json */,
+			);
+			path = amplify;
+			sourceTree = "<group>";
+		};
+		302EF68324DDE2E6005DF0BE /* .config */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68424DDE2E6005DF0BE /* project-config.json */,
+				302EF68524DDE2E6005DF0BE /* local-aws-info.json */,
+				302EF68624DDE2E6005DF0BE /* local-env-info.json */,
+			);
+			path = .config;
+			sourceTree = "<group>";
+		};
+		302EF68724DDE2E6005DF0BE /* #current-cloud-backend */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68824DDE2E6005DF0BE /* backend-config.json */,
+				302EF68924DDE2E6005DF0BE /* auth */,
+				302EF68D24DDE2E6005DF0BE /* api */,
+				302EF6A924DDE2E6005DF0BE /* amplify-meta.json */,
+			);
+			path = "#current-cloud-backend";
+			sourceTree = "<group>";
+		};
+		302EF68924DDE2E6005DF0BE /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68A24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1 */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		302EF68A24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1 */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68B24DDE2E6005DF0BE /* parameters.json */,
+				302EF68C24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml */,
+			);
+			path = amplifyiosworkshop17cd65c1;
+			sourceTree = "<group>";
+		};
+		302EF68D24DDE2E6005DF0BE /* api */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68E24DDE2E6005DF0BE /* amplifyiosworkshop */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		302EF68E24DDE2E6005DF0BE /* amplifyiosworkshop */ = {
+			isa = PBXGroup;
+			children = (
+				302EF68F24DDE2E6005DF0BE /* stacks */,
+				302EF69124DDE2E6005DF0BE /* parameters.json */,
+				302EF69224DDE2E6005DF0BE /* schema.graphql */,
+				302EF69324DDE2E6005DF0BE /* resolvers */,
+				302EF69424DDE2E6005DF0BE /* build */,
+				302EF6A824DDE2E6005DF0BE /* transform.conf.json */,
+			);
+			path = amplifyiosworkshop;
+			sourceTree = "<group>";
+		};
+		302EF68F24DDE2E6005DF0BE /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				302EF69024DDE2E6005DF0BE /* CustomResources.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
+		302EF69324DDE2E6005DF0BE /* resolvers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resolvers;
+			sourceTree = "<group>";
+		};
+		302EF69424DDE2E6005DF0BE /* build */ = {
+			isa = PBXGroup;
+			children = (
+				302EF69524DDE2E6005DF0BE /* stacks */,
+				302EF69824DDE2E6005DF0BE /* parameters.json */,
+				302EF69924DDE2E6005DF0BE /* schema.graphql */,
+				302EF69A24DDE2E6005DF0BE /* resolvers */,
+				302EF6A524DDE2E6005DF0BE /* pipelineFunctions */,
+				302EF6A624DDE2E6005DF0BE /* functions */,
+				302EF6A724DDE2E6005DF0BE /* cloudformation-template.json */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		302EF69524DDE2E6005DF0BE /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				302EF69624DDE2E6005DF0BE /* CustomResources.json */,
+				302EF69724DDE2E6005DF0BE /* LandmarkData.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
+		302EF69A24DDE2E6005DF0BE /* resolvers */ = {
+			isa = PBXGroup;
+			children = (
+				302EF69B24DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl */,
+				302EF69C24DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl */,
+				302EF69D24DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl */,
+				302EF69E24DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl */,
+				302EF69F24DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl */,
+				302EF6A024DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl */,
+				302EF6A124DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl */,
+				302EF6A224DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl */,
+				302EF6A324DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl */,
+				302EF6A424DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl */,
+			);
+			path = resolvers;
+			sourceTree = "<group>";
+		};
+		302EF6A524DDE2E6005DF0BE /* pipelineFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pipelineFunctions;
+			sourceTree = "<group>";
+		};
+		302EF6A624DDE2E6005DF0BE /* functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = functions;
+			sourceTree = "<group>";
+		};
+		302EF6AA24DDE2E6005DF0BE /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6AB24DDE2E6005DF0BE /* backend-config.json */,
+				302EF6AC24DDE2E6005DF0BE /* auth */,
+				302EF6B024DDE2E6005DF0BE /* awscloudformation */,
+				302EF6B224DDE2E6005DF0BE /* api */,
+				302EF6CE24DDE2E6005DF0BE /* amplify-meta.json */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		302EF6AC24DDE2E6005DF0BE /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6AD24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1 */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		302EF6AD24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1 */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6AE24DDE2E6005DF0BE /* parameters.json */,
+				302EF6AF24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml */,
+			);
+			path = amplifyiosworkshop17cd65c1;
+			sourceTree = "<group>";
+		};
+		302EF6B024DDE2E6005DF0BE /* awscloudformation */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6B124DDE2E6005DF0BE /* nested-cloudformation-stack.yml */,
+			);
+			path = awscloudformation;
+			sourceTree = "<group>";
+		};
+		302EF6B224DDE2E6005DF0BE /* api */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6B324DDE2E6005DF0BE /* amplifyiosworkshop */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		302EF6B324DDE2E6005DF0BE /* amplifyiosworkshop */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6B424DDE2E6005DF0BE /* stacks */,
+				302EF6B624DDE2E6005DF0BE /* parameters.json */,
+				302EF6B724DDE2E6005DF0BE /* schema.graphql */,
+				302EF6B824DDE2E6005DF0BE /* resolvers */,
+				302EF6B924DDE2E6005DF0BE /* build */,
+				302EF6CD24DDE2E6005DF0BE /* transform.conf.json */,
+			);
+			path = amplifyiosworkshop;
+			sourceTree = "<group>";
+		};
+		302EF6B424DDE2E6005DF0BE /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6B524DDE2E6005DF0BE /* CustomResources.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
+		302EF6B824DDE2E6005DF0BE /* resolvers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resolvers;
+			sourceTree = "<group>";
+		};
+		302EF6B924DDE2E6005DF0BE /* build */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6BA24DDE2E6005DF0BE /* stacks */,
+				302EF6BD24DDE2E6005DF0BE /* parameters.json */,
+				302EF6BE24DDE2E6005DF0BE /* schema.graphql */,
+				302EF6BF24DDE2E6005DF0BE /* resolvers */,
+				302EF6CA24DDE2E6005DF0BE /* pipelineFunctions */,
+				302EF6CB24DDE2E6005DF0BE /* functions */,
+				302EF6CC24DDE2E6005DF0BE /* cloudformation-template.json */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		302EF6BA24DDE2E6005DF0BE /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6BB24DDE2E6005DF0BE /* CustomResources.json */,
+				302EF6BC24DDE2E6005DF0BE /* LandmarkData.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
+		302EF6BF24DDE2E6005DF0BE /* resolvers */ = {
+			isa = PBXGroup;
+			children = (
+				302EF6C024DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl */,
+				302EF6C124DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl */,
+				302EF6C224DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl */,
+				302EF6C324DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl */,
+				302EF6C424DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl */,
+				302EF6C524DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl */,
+				302EF6C624DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl */,
+				302EF6C724DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl */,
+				302EF6C824DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl */,
+				302EF6C924DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl */,
+			);
+			path = resolvers;
+			sourceTree = "<group>";
+		};
+		302EF6CA24DDE2E6005DF0BE /* pipelineFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pipelineFunctions;
+			sourceTree = "<group>";
+		};
+		302EF6CB24DDE2E6005DF0BE /* functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = functions;
+			sourceTree = "<group>";
+		};
+		302EF70324DDE31B005DF0BE /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				302EF70424DDE31B005DF0BE /* models */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		302EF70424DDE31B005DF0BE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				302EF70524DDE31B005DF0BE /* LandmarkData+Schema.swift */,
+				302EF70624DDE31B005DF0BE /* AmplifyModels.swift */,
+				302EF70724DDE31B005DF0BE /* CoordinateData.swift */,
+				302EF70824DDE31B005DF0BE /* CoordinateData+Schema.swift */,
+				302EF70924DDE31B005DF0BE /* LandmarkData.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		360FA133D3FC27BF46FC7B90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DB5D3D5F12870F3B8FD60A5D /* Pods_Landmarks.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		76C8812076C872F000000001 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				76C88F0076C8886000000001 /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = ../LICENSE;
 			sourceTree = "<group>";
 		};
 		78D0340078D02CA000000001 /* Configuration */ = {
@@ -124,10 +486,10 @@
 				300329EF24DDB30000CDBFB1 /* amplifyconfiguration.json */,
 				300329EE24DDB30000CDBFB1 /* awsconfiguration.json */,
 				C4E4AAA0C4E4035000000001 /* README.md */,
+				302EF68224DDE2E6005DF0BE /* amplify */,
 				B7394864229F194000C47603 /* Landmarks */,
 				B7394863229F194000C47603 /* Products */,
 				78D0340078D02CA000000001 /* Configuration */,
-				76C8812076C872F000000001 /* LICENSE */,
 				BA6B5DBDA07F3D860134D82A /* Pods */,
 				360FA133D3FC27BF46FC7B90 /* Frameworks */,
 			);
@@ -279,23 +641,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				B739489A229F292F00C47603 /* silversalmoncreek.jpg in Resources */,
+				302EF6FA24DDE2E6005DF0BE /* Mutation.createLandmarkData.req.vtl in Resources */,
+				302EF6D224DDE2E6005DF0BE /* local-env-info.json in Resources */,
+				302EF6EE24DDE2E6005DF0BE /* CustomResources.json in Resources */,
+				302EF6F924DDE2E6005DF0BE /* Mutation.createLandmarkData.res.vtl in Resources */,
 				B7394894229F292F00C47603 /* lakemcdonald.jpg in Resources */,
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
+				302EF6F524DDE2E6005DF0BE /* Query.listLandmarkDatas.req.vtl in Resources */,
+				302EF6F224DDE2E6005DF0BE /* LandmarkData.json in Resources */,
+				302EF6F624DDE2E6005DF0BE /* Query.listLandmarkDatas.res.vtl in Resources */,
 				B73948A3229F3E2200C47603 /* charleyrivers.jpg in Resources */,
+				302EF6ED24DDE2E6005DF0BE /* nested-cloudformation-stack.yml in Resources */,
+				302EF6D024DDE2E6005DF0BE /* project-config.json in Resources */,
 				B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
+				302EF70024DDE2E6005DF0BE /* transform.conf.json in Resources */,
 				B7394895229F292F00C47603 /* turtlerock.jpg in Resources */,
+				302EF6FF24DDE2E6005DF0BE /* cloudformation-template.json in Resources */,
+				302EF70124DDE2E6005DF0BE /* amplify-meta.json in Resources */,
 				300329F124DDB30000CDBFB1 /* amplifyconfiguration.json in Resources */,
+				302EF6F024DDE2E6005DF0BE /* schema.graphql in Resources */,
+				302EF6EC24DDE2E6005DF0BE /* amplifyiosworkshop17cd65c1-cloudformation-template.yml in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
 				B7394899229F292F00C47603 /* twinlake.jpg in Resources */,
 				300329F024DDB30000CDBFB1 /* awsconfiguration.json in Resources */,
 				B7394896229F292F00C47603 /* umbagog.jpg in Resources */,
+				302EF70224DDE2E6005DF0BE /* team-provider-info.json in Resources */,
 				B739489D229F292F00C47603 /* chilkoottrail.jpg in Resources */,
+				302EF6FB24DDE2E6005DF0BE /* Mutation.updateLandmarkData.res.vtl in Resources */,
 				B739489C229F292F00C47603 /* chincoteague.jpg in Resources */,
+				302EF6D124DDE2E6005DF0BE /* local-aws-info.json in Resources */,
+				302EF6EA24DDE2E6005DF0BE /* backend-config.json in Resources */,
+				302EF6F824DDE2E6005DF0BE /* Mutation.deleteLandmarkData.req.vtl in Resources */,
 				B739489B229F292F00C47603 /* landmarkData.json in Resources */,
 				B7394893229F292F00C47603 /* icybay.jpg in Resources */,
 				B7394897229F292F00C47603 /* hiddenlake.jpg in Resources */,
+				302EF6FC24DDE2E6005DF0BE /* Query.getLandmarkData.res.vtl in Resources */,
 				B7394898229F292F00C47603 /* stmarylake.jpg in Resources */,
+				302EF6F324DDE2E6005DF0BE /* parameters.json in Resources */,
+				302EF6FE24DDE2E6005DF0BE /* Mutation.updateLandmarkData.req.vtl in Resources */,
+				302EF6F724DDE2E6005DF0BE /* Mutation.deleteLandmarkData.res.vtl in Resources */,
+				302EF6FD24DDE2E6005DF0BE /* Query.getLandmarkData.req.vtl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,15 +735,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D42DE324DD8EF3003DDAC8 /* LandingView.swift in Sources */,
+				302EF70C24DDE31B005DF0BE /* CoordinateData.swift in Sources */,
+				302EF70E24DDE31B005DF0BE /* LandmarkData.swift in Sources */,
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
+				302EF70D24DDE31B005DF0BE /* CoordinateData+Schema.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B739487C229F1B6800C47603 /* MapView.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */,
+				302EF70B24DDE31B005DF0BE /* AmplifyModels.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				30D42DE124DD8ED7003DDAC8 /* UserBadge.swift in Sources */,
 				B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */,
+				302EF70A24DDE31B005DF0BE /* LandmarkData+Schema.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
 			);

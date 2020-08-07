@@ -42,3 +42,22 @@ struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
+
+extension Landmark {
+init(from : LandmarkData) {
+    
+    guard let i = Int(from.id) else {
+        preconditionFailure("Can not create Landmark, Invalid ID : \(from.id) (expected Int)")
+    }
+    
+    id = i
+    name = from.name
+    imageName = from.imageName!
+    coordinates = Coordinates(latitude: from.coordinates!.latitude!, longitude: from.coordinates!.longitude!)
+    state = from.state!
+    park = from.park!
+    category = Category(rawValue: from.category!)!
+    isFavorite = from.isFavorite!
+    }
+
+}

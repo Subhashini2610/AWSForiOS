@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         do {
             Amplify.Logging.logLevel = .info
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
+            try Amplify.add(plugin: AWSAPIPlugin(modelRegistration: AmplifyModels()))
             try Amplify.configure()
             
             print("Amplify initialized")
@@ -85,6 +86,11 @@ extension AppDelegate {
     func updateUI(forSignInStatus: Bool) {
         DispatchQueue.main.async {
             self.userData.isSignedIn = forSignInStatus
+            
+            // only load landmarks at start of app, when user signed in
+            if (forSignInStatus && self.userData.landmarks.isEmpty) {
+                self.queryLandmarks()
+            }
         }
     }
     
@@ -126,6 +132,34 @@ extension AppDelegate {
                 print("Sign out failed with error \(error)")
             }
         })
+    }
+    
+    // MARK: API Access
+    
+    func queryLandmarks() {
+        print("Query landmarks")
+        
+        _ = Amplify.API.query(request: .list(LandmarkData.self)) { event in
+            switch event {
+            case .success(let result):
+                print("Landmarks query complete.")
+                switch result {
+                case .success(let landmarksData):
+                    print("Successfully retrieved list of landmarks")
+                    for f in landmarksData {
+                        let landmark = Landmark.init(from: f)
+                        DispatchQueue.main.async() {
+                            self.userData.landmarks.append(landmark);
+                        }
+                    }
+                    
+                case .failure(let error):
+                    print("Can not retrieve result : error  \(error.errorDescription)")
+                }
+            case .failure(let error):
+                print("Can not retrieve landmarks : error \(error)")
+            }
+        }
     }
     
 }

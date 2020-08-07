@@ -8,4 +8,5 @@ target 'Landmarks' do
     pod 'Amplify'          # required amplify dependency
     pod 'Amplify/Tools'     # allows to cal amplify CLI from within Xcode
     pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+    pod 'AmplifyPlugins/AWSAPIPlugin'
 end
