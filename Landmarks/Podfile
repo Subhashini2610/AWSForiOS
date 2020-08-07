@@ -1,0 +1,11 @@
+platform :ios, '13.0'
+
+target 'Landmarks' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+
+    # Pods for Landmarks
+    pod 'Amplify'          # required amplify dependency
+    pod 'Amplify/Tools'     # allows to cal amplify CLI from within Xcode
+    pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+end
