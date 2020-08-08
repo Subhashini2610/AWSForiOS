@@ -14,12 +14,7 @@ struct LandingView: View {
     var body: some View {
         return VStack {
             if (!$user.isSignedIn.wrappedValue) {
-                Button(action: {
-                    let app = UIApplication.shared.delegate as? AppDelegate
-                    app?.authenticateWithHostedUI()
-                }) {
-                    UserBadge().scaleEffect(0.5)
-                }
+               CustomLoginView()
             } else {
                 LandmarkList().environmentObject(user)
             }

@@ -38,6 +38,7 @@
 		302EF70C24DDE31B005DF0BE /* CoordinateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70724DDE31B005DF0BE /* CoordinateData.swift */; };
 		302EF70D24DDE31B005DF0BE /* CoordinateData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70824DDE31B005DF0BE /* CoordinateData+Schema.swift */; };
 		302EF70E24DDE31B005DF0BE /* LandmarkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70924DDE31B005DF0BE /* LandmarkData.swift */; };
+		302EF71024DEC85E005DF0BE /* CustomLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302EF70F24DEC85E005DF0BE /* CustomLoginView.swift */; };
 		30D42DE124DD8ED7003DDAC8 /* UserBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D42DE024DD8ED7003DDAC8 /* UserBadge.swift */; };
 		30D42DE324DD8EF3003DDAC8 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D42DE224DD8EF3003DDAC8 /* LandingView.swift */; };
 		54364DB6E612FD8736C8FB92 /* Pods_Landmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5D3D5F12870F3B8FD60A5D /* Pods_Landmarks.framework */; };
@@ -129,6 +130,7 @@
 		302EF70724DDE31B005DF0BE /* CoordinateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateData.swift; sourceTree = "<group>"; };
 		302EF70824DDE31B005DF0BE /* CoordinateData+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoordinateData+Schema.swift"; sourceTree = "<group>"; };
 		302EF70924DDE31B005DF0BE /* LandmarkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkData.swift; sourceTree = "<group>"; };
+		302EF70F24DEC85E005DF0BE /* CustomLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginView.swift; sourceTree = "<group>"; };
 		30D42DE024DD8ED7003DDAC8 /* UserBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBadge.swift; sourceTree = "<group>"; };
 		30D42DE224DD8EF3003DDAC8 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		37910177D18A1A3A2774B017 /* Pods-Landmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug.xcconfig"; sourceTree = "<group>"; };
@@ -520,6 +522,7 @@
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
 				B7394873229F194200C47603 /* Info.plist */,
 				B739486D229F194200C47603 /* Preview Content */,
+				302EF70F24DEC85E005DF0BE /* CustomLoginView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -735,6 +738,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D42DE324DD8EF3003DDAC8 /* LandingView.swift in Sources */,
+				302EF71024DEC85E005DF0BE /* CustomLoginView.swift in Sources */,
 				302EF70C24DDE31B005DF0BE /* CoordinateData.swift in Sources */,
 				302EF70E24DDE31B005DF0BE /* LandmarkData.swift in Sources */,
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
