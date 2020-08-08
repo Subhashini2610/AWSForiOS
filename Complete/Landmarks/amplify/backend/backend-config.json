@@ -23,5 +23,11 @@
 				}
 			}
 		}
+	},
+	"storage": {
+		"amplifyiosworkshop": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }

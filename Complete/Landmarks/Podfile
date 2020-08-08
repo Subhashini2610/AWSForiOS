@@ -9,4 +9,5 @@ target 'Landmarks' do
     pod 'Amplify/Tools'     # allows to cal amplify CLI from within Xcode
     pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
     pod 'AmplifyPlugins/AWSAPIPlugin'
+    pod 'AmplifyPlugins/AWSS3StoragePlugin'
 end

@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Amplify.Logging.logLevel = .info
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
             try Amplify.add(plugin: AWSAPIPlugin(modelRegistration: AmplifyModels()))
+            try Amplify.add(plugin: AWSS3StoragePlugin())
+            
             try Amplify.configure()
             
             print("Amplify initialized")
@@ -161,5 +163,26 @@ extension AppDelegate {
             }
         }
     }
-    
+ 
+    // MARK: AWS S3 & Image Loading
+
+        func image(_ name: String, callback: @escaping (Data) -> Void ) {
+            
+            print("Downloading image : \(name)")
+
+            _ = Amplify.Storage.downloadData(key: "\(name).jpg",
+                progressListener: { progress in
+                    // in case you want to monitor progress
+                        print("Progress: \(progress)")
+                }, resultListener: { (event) in
+                    switch event {
+                    case let .success(data):
+                        print("Image \(name) loaded")
+                        callback(data)
+                    case let .failure(storageError):
+                        print("Can not download image: \(storageError.errorDescription). \(storageError.recoverySuggestion)")
+                    }
+                }
+            )
+        }
 }
